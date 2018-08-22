@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/new 2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body background="images/xv.png">
+<header>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="top-padd">
+                    <div class="col-md-6">
+                        <img src="images\logo1.png">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="search-container">
+                            <form class="search">
+                                <input type="text" name="search">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <nav class="navbar navbar-default" id="topnavv">
+                    <div class="container">
+                        <div class="navbar-header" id="topnavv">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"
+                                    id="topnavv">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav" id="topnavv">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="category.html">Catalog</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">How to use</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav nav-cart">
+                                <li><a href="reg-form.html"><img src="images/cart.png"> Your Cart is empty</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    </div>
+</header>
+<div class="container">
+    <div class="normal-back">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product">
+                    <ul class="list-group">
+                        <li class="list-group-item active">PRODUCT CATEGORIES
+                        </li>
+                        <li class="list-group-item"><a href="#">Summer Collection
+                            <img src="images/arro-left.png" id="pull-right"></a>
+                        </li>
+                        <li class="list-group-item"><a href="#">Hot Deal
+                            <img src="images/arro-left.png" id="pull-right"></a>
+                        </li>
+                        <li class="list-group-item"><a href="#">Winter Special
+                            <img src="images/arro-left.png" id="pull-right"></a>
+                        </li>
+                        <li class="list-group-item"><a href="#">Christmas Offer
+                            <img src="images/arro-left.png" id="pull-right"></a>
+                        </li>
+                        <li class="list-group-item"><a href="#">This Week's Super Sell!
+                            <img src="images/arro-left.png" id="pull-right"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="latest-news">
+                    <ul class="list-group">
+                        <li class="list-group-item active">LATEST NEWS
+                        </li>
+                        <li class="list-group-item heading">FACEBOOK COMMENT WILL <p id="description">Posted by admin on
+                            November 30, 2011</p>
+                        </li>
+                        <li class="list-group-item heading">FIRST POST <p id="description">Posted by Shopify on November
+                            30, 2011</p>
+                        </li>
+                        <li class="list-group-item heading">FIRST POST <p id="description">Posted by Shopify on November
+                            30, 2011</p>
+                        </li>
+                        <li class="list-group-item heading">FIRST POST <p id="description">Posted by Shopify on November
+                            30, 2011</p>
+                        </li>
+                        <li class="list-group-item heading">FIRST POST <p id="description">Posted by Shopify on November
+                            30, 2011</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="spread">
+                    <ul class="list-group">
+                        <li class="list-group-item active">SPREAD THE WORLD
+                        </li>
+                        <li class="list-group-item heading">
+                            <p>
+                                <img id="spread-photo" src="images/f.png">
+                                <img id="spread-photo" src="images/t.png">
+                                <img id="spread-photo" src="images/y.png">
+                                <img id="spread-photo" src="images/d.png">
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="whole-form">
+                <div class="col-md-9">
+                    <div class="row">
+                        <p></p>
+                        <h1>Join In Brandify</h1>
+                        <p></p>
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="first">Name</label>
+                                <p class="first-name-error"></p>
+                                <input type="text" class="form-control" id="first" value="Ferdib-Al-Islam">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <p class="email-error"></p>
+                                <input type="email" class="form-control" id="email" value="ferdib@w3engineers.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="password-label">Password</label>
+                                <p class="password-error"></p>
+                                <input type="password" class="form-control" id="password">
+                            </div>
+                            <div class="form-group">
+                                <label for="gender" class="gender-name">Gender</label>
+                                <p class="radio-error"></p>
+                                <input type="radio" class="form-control-radio" id="sex" value="male" name="sex"
+                                       required> Male <br/>
+                                <input type="radio" class="form-control-radio" id="sex" value="female" name="sex">
+                                Female <br/>
+                                <input type="radio" class="form-control-radio" id="sex" value="other" name="sex"> Other
+                                <br/>
+                            </div>
+                            <div class="form-group">
+                                <label for="Upload Image" class="upload-image">Upload Image</label>
+                                <p class="radio-error"></p>
+                                <input type="file" class="file-upload" id="u-f" value="image" name="img"
+                                       accept=".jpg,.png,.jpeg" required> <br/>
+                            </div>
+                            <button type="submit" class="btn">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<footer>
+    <div class="foot">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="copyright-c">
+                            Copyright Your Company, 2011. Customize this text in Theme Settings. E-commerce software by
+                            Shopify.
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5><p id="footer-text-c">Policies</p></h5>
+                                <p id="footer-text-c">
+                                    <img src="images/arro-footer.png"> FAQ <br/>
+                                    <img src="images/arro-footer.png"> Terms & Conditions <br/>
+                                    <img src="images/arro-footer.png"> Privacy Policy <br/>
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <h5><p id="footer-text-c">How to use</p></h5>
+                                <p id="footer-text-c">
+                                    <img src="images/arro-footer.png"> Creating Drop Down Menu <br/>
+                                    <img src="images/arro-footer.png"> Changing Imagery <br/>
+                                    <img src="images/arro-footer.png"> Need Support <br/>
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <h5><p id="footer-text-c">Join Our Mailing List</p></h5>
+                                <form class="searchb">
+                                    <input type="text" placeholder=" Mailing Address ">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                            <div class="col-md-3">
+                                <h5><p id="footer-text-cw">We Accept</p></h5>
+                                <p>
+                                    <img id="we-photo" src="images/pm-1.png">
+                                    <img id="we-photo" src="images/pm-2.png">
+                                    <img id="we-photo" src="images/pm-3.png">
+                                    <img id="we-photo" src="images/pm-4.png">
+                                    <img id="we-photo" src="images/pm-5.png">
+                                    <img id="we-photo" src="images/pm-06.png">
+                                    <img id="we-photo" src="images/pm-7.png">
+                                    <img id="we-photo" src="images/pm-8.png">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>
+<script type="text/javascript"
+        src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.js"></script>
+<script type="text/javascript"
+        src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/additional-methods.js"></script>
+
+<script>
+    var main = function () {
+        $('form').submit(function () {
+            var firstName = $('#first').val();
+            if (firstName === "") {
+                $('.first-name-error').text('Please enter your name.')
+            }
+            return false;
+        });
+
+        $('form').submit(function () {
+            var email = $('#email').val();
+            if (email === "") {
+                $('.email-error').text('Please enter your email address.')
+            }
+            ;
+            return false;
+        })
+
+        $('form').submit(function () {
+            var password = $('#password').val();
+            if (password === "") {
+                $('.password-error').text('Please enter a password.')
+            }
+            ;
+            if (password.length < 8 && password.length > 1) {
+                $('.password-error').text('Short passwords are easy to guess. Try one with at least 8 characters.')
+            }
+            var password = $('#password').val();
+            var email = $('#email').val();
+            var first = $('#first').val();
+            if (!(password.length < 8 ) && !(email === "" ) && !(first === "")) {
+                alert("Registration Succesful!");
+            }
+            ;
+            return true;
+        });
+    }
+
+    $(document).ready(main);
+</script>
+
+<script>
+    $.validator.addMethod('filesize', function (value, element, param) {
+        return this.optional(element) || (element.files[0].size <= param)
+    }, 'File size must be less than {0}');
+
+    jQuery(function ($) {
+        "use strict";
+        $('#u-f').validate({
+            rules: {
+                image: {
+                    required: true,
+                    extension: "jpg,jpeg,png",
+
+                }
+            },
+        });
+    });
+</script>
+
+</body>
+</html>
